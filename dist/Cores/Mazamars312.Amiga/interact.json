@@ -14,7 +14,7 @@
         "mask": "0xFFFFFFFE"
 	},
 	{
-        "name": "Installed Floppy Drives",
+        "name": "Floppy Drives",
         "id": 120,
         "type": "list",
         "enabled": true,
@@ -69,27 +69,27 @@
         "options": [
 		{
 			"value": "0x0000",
-			"name": "JOYSTICK 1/JOYSTICK 2"
+			"name": "Joystick 1/Joystick 2"
 		},
 		{
 			"value": "0x40000000",
-			"name": "JOYSTICK 2/JOYSTICK 1"
+			"name": "Joystick 2/Joystick 1"
 		},
 		{
 			"value": "0x80000000",
-			"name": "MOUSE/JOYSTICK 1"
+			"name": "Mouse/Joystick 1"
 		},
 		{
 			"value": "0x20000000",
-			"name": "CD32PAD 1/CD32PAD 2"
+			"name": "CD32 1/CD32 2"
 		},
 		{
 			"value": "0x30000000",
-			"name": "CD32PAD 2/CD32PAD 1"
+			"name": "CD32 2/CD32 1"
 		},
 		{
 			"value": "0xa0000000",
-			"name": "MOUSE/CD32PAD 1"
+			"name": "Mouse/CD32 1"
 		}
         ]
 	},
@@ -112,7 +112,7 @@
                 
 	},
 	{
-		"name": "Screen X Position",
+		"name": "Screen X-Position",
 		"id": 123,
 		"type": "slider_u32",
 		"enabled": true,
@@ -129,7 +129,7 @@
 		}
 	},
 	{
-		"name": "Screen Y Position",
+		"name": "Screen Y-Position",
 		"id": 124,
 		"type": "slider_u32",
 		"enabled": true,
@@ -157,35 +157,35 @@
         "options": [
 		{
 			"value": "0x0000",
-			"name": "OG/Standard/PAL"
+			"name": "OCS/PAL/Standard"
 		},
 		{
 			"value": "0x0002",
-			"name": "OG/Standard/NTSC"
+			"name": "OCS/NTSC/Standard"
 		},
 		{
 			"value": "0x0001",
-			"name": "OG/Turbo/PAL"
+			"name": "OCS/PAL/Turbo"
 		},
 		{
 			"value": "0x0003",
-			"name": "OG/Turbo/NTSC"
+			"name": "OCS/NTSC/Turbo"
 		},
 		{
 			"value": "0x0010",
-			"name": "AGA/Standard/PAL"
+			"name": "AGA/PAL/Std"
 		},
 		{
 			"value": "0x0012",
-			"name": "AGA/Standard/NTSC"
+			"name": "AGA/NTSC/Std"
 		},
 		{
 			"value": "0x0011",
-			"name": "AGA/Turbo/PAL"
+			"name": "AGA/PAL/Turbo"
 		},
 		{
 			"value": "0x0013",
-			"name": "AGA/Turbo/NTSC"
+			"name": "AGA/NTSC/Turbo"
 		}
         ]
 	},
@@ -201,24 +201,24 @@
         "options": [
 		{
 			"value": "0x0000",
-			"name": "68K CPU"
+			"name": "68000 CPU"
 		},
 		{
 			"value": "0x0002",
-			"name": "68010K CPU"
+			"name": "68010 CPU"
 		},
 		{
 			"value": "0x0003",
-			"name": "68020K CPU - No Cache"
+			"name": "68020 CPU - No Cache"
 		},
 		{
 			"value": "0x0007",
-			"name": "68020K CPU - Cache"
+			"name": "68020 CPU - Cache"
 		}
         ]
 	},
 	{
-        "name": "memory - chip",
+        "name": "Memory: Chip",
         "id": 130,
         "type": "list",
         "enabled": true,
@@ -229,24 +229,24 @@
         "options": [
 			{
 				"value": "0x00",
-				"name": "512kb"
+				"name": "512 kB"
 			},
 			{
 				"value": "0x01",
-				"name": "1Mb"
+				"name": "1 MB"
 			},
 			{
 				"value": "0x02",
-				"name": "1.5Mb"
+				"name": "1.5 MB"
 			},
 			{
 				"value": "0x03",
-				"name": "2Mb"
+				"name": "2 MB"
 			}
         ]
 	},
 	{
-        "name": "memory - slow",
+        "name": "Memory: Slow",
         "id": 131,
         "type": "list",
         "enabled": true,
@@ -261,20 +261,20 @@
 			},
 			{
 				"value": "0x0004",
-				"name": "512K"
+				"name": "512 kB"
 			},
 			{
 				"value": "0x0008",
-				"name": "1Mb"
+				"name": "1 MB"
 			},
 			{
 				"value": "0x000c",
-				"name": "1.5Mb"
+				"name": "1.5 MB"
 			}
         ]
 	},
 	{
-        "name": "memory - fast",
+        "name": "Memory: Fast",
         "id": 132,
         "type": "list",
         "enabled": true,
@@ -289,15 +289,15 @@
 			},
 			{
 				"value": "0x0010",
-				"name": "2Mbytes/32mbytes"
+				"name": "2 MB/32 MB"
 			},
 			{
 				"value": "0x0020",
-				"name": "4Mbytes/none"
+				"name": "4 MB/none"
 			},
 			{
 				"value": "0x0030",
-				"name": "8Mbytes/none"
+				"name": "8 MB/none"
 			}
         ]
       }

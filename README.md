@@ -30,7 +30,7 @@ This is based on the Mister Github of the Amiga Mist project (Also known as the 
 * Load Bios - This will allow you to reload new BIOSes on the fly - will cause a reset.
 * Load Floppy Drive 0-3 - This will allow you to load different floppies while playing.
 * CPU Reset - This will reset the core, and any change in settings will be applied.
-* Installed Floppy Drives - this will allow you to select how many drives are installed, and delimit the transfer rate of the Amiga core.
+* Floppy Drives - this will allow you to select how many drives are installed, and delimit the transfer rate of the Amiga core.
 * Port 1/Port 2 - This allows you to change and swap the controller ports with CD32/Normal Joysticks/Mouse - if you need to use the emulated mouse, make sure you use the mouse/joystick or mouse/CD32 options.
 * Mouse Speed - This will change the update rate of both the emulated and real mouse movements.
 * Screen Movement X/Y - Moves the screen around.
